@@ -1,0 +1,77 @@
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff8a00, #e52e71); /* Same gradient background */
+    background-image: url('../assets/giphy.gif'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .signup form {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .signup h2 {
+    margin: 0 0 20px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #ffdd57; /* Bright text color */
+  }
+  
+  .signup input {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+  }
+  
+  .signup input[type="text"],
+  .signup input[type="password"] {
+    background: #fff;
+    color: #333;
+  }
+  
+  .signup button {
+    background: #ff5722; /* Vibrant button color */
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background 0.3s ease;
+  }
+  
+  .signup button:hover {
+    background: #e64a19;
+  }
+  
+  .error {
+    color: #ff6f61;
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  
+  .switch-view {
+    margin-top: 15px;
+    font-size: 1em;
+  }
+  
+  .switch-view button {
+    background: none;
+    border: none;
+    color: #ffdd57;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
